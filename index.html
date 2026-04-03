@@ -207,7 +207,7 @@
     <li><a href="#competences">Compétences</a></li>
     <li><a href="#cv">Mon CV</a></li>
     <li><a href="#projets">Projets</a></li>
-    <li><a href="#projet-pro">Projet Pro</a></li>
+    <li><a href="#projet-pro-bts">Projet Pro BTS</a></li>
     <li><a href="#experience">Parcours</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
@@ -233,7 +233,7 @@
       <div class="hero-card-role">Technicien Réseaux &amp; Systèmes</div>
       <div class="hero-card-info">
         <div class="hero-card-row"><span>📍</span><span>7 rue de Bammeville, 76100 Rouen</span></div>
-        <div class="hero-card-row"><span>✉</span><a href="mailto:mathislandryb@gmail.com">mathislandryb@gmail.com</a></div>
+        <div class="hero-card-row"><span>✉</span><a href="/cdn-cgi/l/email-protection#6c010d1804051f000d02081e150e2c0b010d0500420f0301"><span class="__cf_email__" data-cfemail="82efe3f6eaebf1eee3ece6f0fbe0c2e5efe3ebeeace1edef">[email&#160;protected]</span></a></div>
         <div class="hero-card-row"><span>📞</span><span>07 68 24 29 84</span></div>
         <div class="hero-card-row"><span>💼</span><a href="https://www.linkedin.com/in/mathis-landry-boumah-16a580333/" target="_blank">LinkedIn</a></div>
         <div class="hero-card-row"><span>🎓</span><span>Bac SN · 2024</span></div>
@@ -332,7 +332,7 @@
       <div class="cv-block">
         <div class="cv-block-title">Contact</div>
         <div class="cv-info-item">📍 7 rue de Bammeville, 76100 Rouen</div>
-        <div class="cv-info-item">✉ mathislandryb@gmail.com</div>
+        <div class="cv-info-item">✉ <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="cea3afbaa6a7bda2afa0aabcb7ac8ea9a3afa7a2e0ada1a3">[email&#160;protected]</a></div>
         <div class="cv-info-item">📞 07-68-24-29-84</div>
       </div>
       <div class="cv-block">
@@ -454,52 +454,108 @@
       </div>
     </div>
 
-    <!-- RAPPORT BDD -->
+    <!-- PROJET 2 : DMZ + HTTPS -->
     <div class="project-col" style="padding:0; overflow:hidden;">
       <div class="report-header" style="background:rgba(26,86,219,0.08); border-bottom:2px solid var(--blue); padding:1.4rem 2rem; display:flex; align-items:center; gap:1rem;">
-        <div style="font-size:1.8rem;">🗄️</div>
+        <div style="font-size:1.8rem;">🔒</div>
         <div>
-          <div class="project-col-title" style="border:none; margin:0; padding:0; font-size:1.1rem;">Rapport — Serveur de Base de Données</div>
-          <div style="font-size:0.65rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--blue); margin-top:0.2rem;">Serveur · MariaDB · Debian 11 · Proxmox</div>
+          <div class="project-col-title" style="border:none; margin:0; padding:0; font-size:1.1rem;">Projet 2 — Sécurisation Infrastructure Web</div>
+          <div style="font-size:0.65rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--blue); margin-top:0.2rem;">DMZ · HTTPS/SSL · VPN · Stormshield · Nginx</div>
         </div>
       </div>
-      <div style="padding:1.8rem 2rem;">
-        <div class="report-desc" style="font-size:0.82rem; color:var(--muted); line-height:1.7; margin-bottom:1.4rem;">Installation et configuration d'un serveur de base de données MariaDB sur une machine virtuelle Debian 11 hébergée sous Proxmox.</div>
-        <div class="step" style="display:flex;gap:0.9rem;margin-bottom:0.8rem;align-items:flex-start;"><div class="step-num" style="flex-shrink:0;width:20px;height:20px;background:var(--blue);color:white;font-size:0.65rem;font-weight:700;display:flex;align-items:center;justify-content:center;">1</div><div style="font-size:0.78rem;color:var(--muted);line-height:1.55;"><strong style="color:var(--ink);display:block;margin-bottom:0.05rem;">Création de la VM</strong>Déploiement d'une machine virtuelle Debian 11 sous Proxmox.</div></div>
-        <div class="step" style="display:flex;gap:0.9rem;margin-bottom:0.8rem;align-items:flex-start;"><div class="step-num" style="flex-shrink:0;width:20px;height:20px;background:var(--blue);color:white;font-size:0.65rem;font-weight:700;display:flex;align-items:center;justify-content:center;">2</div><div style="font-size:0.78rem;color:var(--muted);line-height:1.55;"><strong style="color:var(--ink);display:block;margin-bottom:0.05rem;">Installation de MariaDB</strong>Installation de MariaDB et de l'ensemble des paquets associés sur la Debian 11.</div></div>
-        <div class="step" style="display:flex;gap:0.9rem;margin-bottom:0.8rem;align-items:flex-start;"><div class="step-num" style="flex-shrink:0;width:20px;height:20px;background:var(--blue);color:white;font-size:0.65rem;font-weight:700;display:flex;align-items:center;justify-content:center;">3</div><div style="font-size:0.78rem;color:var(--muted);line-height:1.55;"><strong style="color:var(--ink);display:block;margin-bottom:0.05rem;">Configuration &amp; sécurisation</strong>Configuration du serveur, création des bases de données et sécurisation des accès.</div></div>
-        <div style="display:flex;flex-wrap:wrap;gap:0.45rem;margin-top:1.2rem;padding-top:1.2rem;border-top:1px solid var(--warm);">
-          <span style="font-size:0.63rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.1);color:var(--blue);border:1px solid rgba(26,86,219,0.25);">MariaDB</span>
-          <span style="font-size:0.63rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.1);color:var(--blue);border:1px solid rgba(26,86,219,0.25);">Debian 11</span>
-          <span style="font-size:0.63rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.1);color:var(--blue);border:1px solid rgba(26,86,219,0.25);">Proxmox</span>
-          <span style="font-size:0.63rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.1);color:var(--blue);border:1px solid rgba(26,86,219,0.25);">Virtualisation</span>
-          <span style="font-size:0.63rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.1);color:var(--blue);border:1px solid rgba(26,86,219,0.25);">SQL</span>
-          <span style="font-size:0.63rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.1);color:var(--blue);border:1px solid rgba(26,86,219,0.25);">Linux</span>
+      <div style="padding:1.5rem 2rem;">
+        <div style="font-size:0.82rem; color:var(--muted); line-height:1.7; margin-bottom:1.5rem;">Isolation d'un serveur web en DMZ via Stormshield, chiffrement des échanges en HTTPS avec Nginx, et mise en place d'un VPN SSL pour les accès distants sécurisés.</div>
+
+        <!-- Tags -->
+        <div style="display:flex;flex-wrap:wrap;gap:0.45rem;margin-bottom:1.5rem;">
+          <span style="font-size:0.63rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.1);color:var(--blue);border:1px solid rgba(26,86,219,0.25);">Stormshield</span>
+          <span style="font-size:0.63rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.1);color:var(--blue);border:1px solid rgba(26,86,219,0.25);">DMZ</span>
+          <span style="font-size:0.63rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.1);color:var(--blue);border:1px solid rgba(26,86,219,0.25);">HTTPS / SSL</span>
+          <span style="font-size:0.63rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.1);color:var(--blue);border:1px solid rgba(26,86,219,0.25);">Nginx</span>
+          <span style="font-size:0.63rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.1);color:var(--blue);border:1px solid rgba(26,86,219,0.25);">VPN SSL</span>
+          <span style="font-size:0.63rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.1);color:var(--blue);border:1px solid rgba(26,86,219,0.25);">Lynx</span>
+          <span style="font-size:0.63rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.1);color:var(--blue);border:1px solid rgba(26,86,219,0.25);">Filtrage réseau</span>
         </div>
+
+        <!-- Rapport 1 : Isolation DMZ -->
+        <div style="margin-bottom:1.5rem;">
+          <div style="font-size:0.72rem; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:var(--blue); margin-bottom:0.6rem; display:flex; align-items:center; gap:0.5rem;">
+            📄 Rapport 1 — Isolation Serveur DMZ
+          </div>
+          <iframe src="Rapport_isolation_serveur_DMZ.pdf" width="100%" height="420px" style="border:1px solid var(--warm); display:block;"></iframe>
+          <a href="Rapport_isolation_serveur_DMZ.pdf" target="_blank" style="display:inline-flex; align-items:center; gap:0.5rem; margin-top:0.6rem; font-size:0.75rem; color:var(--blue); text-decoration:none; font-weight:500;">
+            ↗ Ouvrir en plein écran
+          </a>
+        </div>
+
+        <!-- Rapport 2 : HTTPS -->
+        <div>
+          <div style="font-size:0.72rem; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:var(--blue); margin-bottom:0.6rem; display:flex; align-items:center; gap:0.5rem;">
+            📄 Rapport 2 — Sécurisation Site Web Patient (HTTPS)
+          </div>
+          <iframe src="Rapport_securisation_site_web_patient.pdf" width="100%" height="420px" style="border:1px solid var(--warm); display:block;"></iframe>
+          <a href="Rapport_securisation_site_web_patient.pdf" target="_blank" style="display:inline-flex; align-items:center; gap:0.5rem; margin-top:0.6rem; font-size:0.75rem; color:var(--blue); text-decoration:none; font-weight:500;">
+            ↗ Ouvrir en plein écran
+          </a>
+        </div>
+
       </div>
     </div>
 
   </div>
 </section>
 
-<!-- PROJET PRO -->
-<section class="section pro-section" id="projet-pro">
-  <span class="section-label">Atelier Professionnel</span>
-  <h2 class="pro-main-title">Projet Professionnel BTS</h2>
-  <p class="pro-main-sub">Documents et réalisations pour l'épreuve E5 / E6 du BTS SIO — Option SISR</p>
-  <div class="pro-others" style="grid-template-columns: repeat(2,1fr);">
-    <div class="pro-card">
-      <div class="pro-card-icon">🔧</div>
-      <div class="pro-card-title">Travaux Pratiques</div>
-      <div class="pro-card-desc">TP réseau, configurations Cisco Packet Tracer, maquettes et captures d'écran de TP réalisés en cours.</div>
-      <div class="pro-upload">📎 Documents à venir</div>
+<section class="section pro-section" id="projet-pro-bts">
+  <span class="section-label">Épreuve BTS</span>
+  <h2 class="pro-main-title">Projet Pro BTS</h2>
+  <p class="pro-main-sub">Documents officiels pour l'épreuve E5 / E6 — BTS SIO Option SISR · Lycée Gustave Flaubert</p>
+
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:2rem;">
+
+    <div style="background:rgba(255,255,255,0.04); border:1px solid rgba(96,165,250,0.2); overflow:hidden;">
+      <div style="background:rgba(26,86,219,0.2); padding:1.4rem 2rem; border-bottom:1px solid rgba(96,165,250,0.15); display:flex; align-items:center; gap:1rem;">
+        <div style="font-size:1.8rem;">🛡️</div>
+        <div>
+          <div style="font-family:'Playfair Display',serif; font-size:1rem; font-weight:700; color:white;">Rapport — Isolation Serveur DMZ</div>
+          <div style="font-size:0.62rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--blue-accent); margin-top:0.3rem;">Stormshield · Filtrage · Lynx · Debian</div>
+        </div>
+      </div>
+      <div style="padding:1.5rem 2rem;">
+        <div style="font-size:0.82rem; color:rgba(255,255,255,0.5); line-height:1.7; margin-bottom:1.5rem;">Création de la DMZ sur le Stormshield pour isoler le serveur web. Mise en place de règles de filtrage pour contrôler les communications entre les zones LAN, DMZ et WAN. Vérification via l'outil Lynx.</div>
+        <div style="display:flex; flex-wrap:wrap; gap:0.45rem; margin-bottom:1.5rem;">
+          <span style="font-size:0.62rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.25);color:var(--blue-accent);border:1px solid rgba(26,86,219,0.35);">DMZ</span>
+          <span style="font-size:0.62rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.25);color:var(--blue-accent);border:1px solid rgba(26,86,219,0.35);">Stormshield</span>
+          <span style="font-size:0.62rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.25);color:var(--blue-accent);border:1px solid rgba(26,86,219,0.35);">Filtrage réseau</span>
+          <span style="font-size:0.62rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.25);color:var(--blue-accent);border:1px solid rgba(26,86,219,0.35);">Lynx</span>
+        </div>
+        <a href="Rapport_isolation_serveur_DMZ.pdf" target="_blank" style="display:inline-flex; align-items:center; gap:0.7rem; background:var(--blue); color:white; padding:0.7rem 1.4rem; font-size:0.78rem; letter-spacing:0.08em; text-transform:uppercase; text-decoration:none; font-weight:500;">
+          📄 Voir le rapport PDF
+        </a>
+      </div>
     </div>
-    <div class="pro-card">
-      <div class="pro-card-icon">🎓</div>
-      <div class="pro-card-title">Veille Technologique</div>
-      <div class="pro-card-desc">Articles, études et notes de veille sur les évolutions en réseaux, cybersécurité et systèmes.</div>
-      <div class="pro-upload">📎 Documents à venir</div>
+
+    <div style="background:rgba(255,255,255,0.04); border:1px solid rgba(96,165,250,0.2); overflow:hidden;">
+      <div style="background:rgba(26,86,219,0.2); padding:1.4rem 2rem; border-bottom:1px solid rgba(96,165,250,0.15); display:flex; align-items:center; gap:1rem;">
+        <div style="font-size:1.8rem;">🔒</div>
+        <div>
+          <div style="font-family:'Playfair Display',serif; font-size:1rem; font-weight:700; color:white;">Rapport — Sécurisation Site Web Patient</div>
+          <div style="font-size:0.62rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--blue-accent); margin-top:0.3rem;">Nginx · HTTPS · SSL · Certificat</div>
+        </div>
+      </div>
+      <div style="padding:1.5rem 2rem;">
+        <div style="font-size:0.82rem; color:rgba(255,255,255,0.5); line-height:1.7; margin-bottom:1.5rem;">Installation de Nginx pour générer un certificat SSL et sécuriser le serveur web en HTTPS. Vérification du chiffrement des échanges via navigateur (port 443).</div>
+        <div style="display:flex; flex-wrap:wrap; gap:0.45rem; margin-bottom:1.5rem;">
+          <span style="font-size:0.62rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.25);color:var(--blue-accent);border:1px solid rgba(26,86,219,0.35);">Nginx</span>
+          <span style="font-size:0.62rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.25);color:var(--blue-accent);border:1px solid rgba(26,86,219,0.35);">HTTPS</span>
+          <span style="font-size:0.62rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.25);color:var(--blue-accent);border:1px solid rgba(26,86,219,0.35);">SSL</span>
+          <span style="font-size:0.62rem;padding:0.2rem 0.65rem;background:rgba(26,86,219,0.25);color:var(--blue-accent);border:1px solid rgba(26,86,219,0.35);">Certificat</span>
+        </div>
+        <a href="Rapport_securisation_site_web_patient.pdf" target="_blank" style="display:inline-flex; align-items:center; gap:0.7rem; background:var(--blue); color:white; padding:0.7rem 1.4rem; font-size:0.78rem; letter-spacing:0.08em; text-transform:uppercase; text-decoration:none; font-weight:500;">
+          📄 Voir le rapport PDF
+        </a>
+      </div>
     </div>
+
   </div>
 </section>
 
@@ -559,12 +615,4 @@
   <h2 class="contact-title">Travaillons <em>ensemble.</em></h2>
   <p class="contact-sub">Disponible pour un stage, une alternance ou un projet professionnel.</p>
   <div class="contact-links">
-    <a href="mailto:mathislandryb@gmail.com" class="contact-link">✉ mathislandryb@gmail.com</a>
-    <a href="tel:0768242984" class="contact-link">📞 07 68 24 29 84</a>
-    <a href="https://www.linkedin.com/in/mathis-landry-boumah-16a580333/" target="_blank" class="contact-link">💼 LinkedIn</a>
-  </div>
-</section>
-
-<footer>© 2026 Mathis Boumah — Portfolio BTS SIO · Option SISR · Lycée Gustave Flaubert, Rouen</footer>
-</body>
-</html>
+    <a href="/cdn-cgi/l/email-protection#c8a5a9bca0a1bba4a9a6acbab1aa88afa5a9a1a4e6aba7a5" class="contact-link">✉ <span class="__cf_email__" data-cfemail="264b47524e4f554a474842
